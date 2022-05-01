@@ -1,14 +1,19 @@
 import React from "react"
 import "./App.css"
-import SearchIcon from "../public/search.svg"
 import { Logo } from "./components/Icons"
+
 
 
 function App() {
   return (
     <div>
       <div className="top-header">
-        <Logo className="logo" />
+        <div className="menu-toggler open-menu">
+
+        </div>
+        <div className="logo">
+          <Logo />
+        </div>
         <input className="search" placeholder="Search" />
         <button className="button-search">
           <svg
