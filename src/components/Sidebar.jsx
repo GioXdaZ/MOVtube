@@ -56,3 +56,22 @@ export function Sidebar() {
     </>
   )
 }
+
+export const CloseSidebarMenu = () => {
+  return (
+    <div className="container-close-sidebar">
+          <Button className="close-button-menu">
+            <HomeIcon />
+          </Button>
+          <Button className="close-button-menu">
+            <ExploreIcon />
+          </Button>
+          <Button className="close-button-menu">
+            <ShortsIcon />
+          </Button>
+          <Button className="close-button-menu">
+            <SubsIcon />
+          </Button>
+        </div>
+  )
+}

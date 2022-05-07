@@ -1,5 +1,4 @@
 .button-menu {
-  
   background-color: #282828;
   border: none;
   margin-left: 1px;
@@ -49,4 +48,19 @@
     background-color: #282828;
     border: none;
     gap: 1rem;
+}
+
+.container-close-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 100vh;
+  background-color: #282828;
+  padding-top: 28px;
+  gap: 5px;
+  padding-bottom: auto;
+}
+.container-close-sidebar .close-button-menu {
+  background-color: #282828;
+  border: none;
 }

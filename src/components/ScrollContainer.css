@@ -1,0 +1,19 @@
+.body-list {
+    background-color: #282828;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding-left: 1rem;
+}
+
+.body-list .list-group {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.body-list .btn-form { 
+  border-radius: 20px;
+}
