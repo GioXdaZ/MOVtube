@@ -1,15 +1,16 @@
 import React from "react"
 import "./App.css"
 import { Logo } from "./components/Icons"
-
-
+import Button from 'react-bootstrap/Button'
+import 'bootstrap/dist/css/bootstrap.css'
+import { Sidebar } from "./components/Sidebar"
 
 function App() {
   return (
     <div>
       <div className="top-header">
-        <div className="menu-toggler open-menu">
-
+        <div className="sidebar">
+          <Sidebar />
         </div>
         <div className="logo">
           <Logo />

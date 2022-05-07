@@ -1,5 +1,35 @@
 .logo {
-  width: 6rem;
+  width: 5.6rem;
   align-self: center;
+  fill: white;
+}
+
+.home-icon {
+  align-self: center;
+  width: 1.6rem;
+  fill: white;
+}
+
+.menu-icon {
+  align-self: center;
+  width: 1.6rem;
+  fill: white;
+}
+
+.explore-icon {
+  align-self: center;
+  width: 1.6rem;
+  fill: white;
+}
+
+.shorts-icon {
+  align-self: center;
+  width: 1.6rem;
+  fill: white;
+}
+
+.subs-icon {
+  align-self: center;
+  width: 1.6rem;
   fill: white;
 }
