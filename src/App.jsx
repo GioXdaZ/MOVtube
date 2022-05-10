@@ -1,10 +1,11 @@
 import React from "react"
 import "./App.css"
 import { Logo } from "./components/Icons"
-import Button from 'react-bootstrap/Button'
-import 'bootstrap/dist/css/bootstrap.css'
+import Button from "react-bootstrap/Button"
+import "bootstrap/dist/css/bootstrap.css"
 import { Sidebar, CloseSidebarMenu } from "./components/Sidebar"
 import { ScrollContainer } from "./components/ScrollContainer"
+import { BodyContent } from "./components/BodyContent"
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
       </div>
       <div className="scroll-container">
         <ScrollContainer />
+      </div>
+      <div className="body-content">
+        <BodyContent />
       </div>
     </div>
   )
